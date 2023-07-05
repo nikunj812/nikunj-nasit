@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Faith Evans</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="about.html">
+            <i class="fas fa-user"></i>
+            <span>About</span>
+        </a>
+        <a href="portfolio.html">
+            <i class="fas fa-briefcase"></i>
+            <span>PortFolio</span>
+        </a>
+        <a href="contact.html">
+            <i class="fas fa-address-book"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+
+    <section class="contact">
+      <h1 class="heading">contact <span>me</span></h1>
+      <div class="row">
+        <div class="info-container">
+          <h1>get in touch</h1>
+          <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Quas
+            Dolorem Sunt Sapiente Vel Minus Eaque Voluptate Fugit Corrupti Omnis
+            Tempora?
+          </p>
+          <div class="box-container">
+            <div class="box">
+              <i class="fas fa-map"></i>
+              <div class="info">
+                <h3>address :</h3>
+                <p>Dar es salaam, Tanzania</p>
+              </div>
+            </div>
+            <div class="box">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <h3>email :</h3>
+                <p>tanzame@gmail.com</p>
+              </div>
+            </div>
+            <div class="box">
+              <i class="fas fa-phone"></i>
+              <div class="info">
+                <h3>number :</h3>
+                <p>+255742552286</p>
+              </div>
+            </div>
+          </div>
+          <div class="share">
+            <a
+              href="https://facebook.com/tanzahost"
+              class="fab fa-facebook-f"
+            ></a>
+            <a
+              href="https://twitter.com/AlmirFrances"
+              class="fab fa-twitter"
+            ></a>
+            <a
+              href="https://instagram.com/almirfrances__"
+              class="fab fa-instagram"
+            ></a>
+            <a
+              href="https://linkedin.com/almirfrances"
+              class="fab fa-linkedin"
+            ></a>
+          </div>
+        </div>
+        <form method="post" action="https://tanzame.tanzahost.com/contact">
+          <input
+            type="hidden"
+            name="_token"
+            value="jNbb59ggYySrc1uNHochMvEmwymgNg0TO7gr0ETn"
+          />
+          <div class="inputBox">
+            <input type="text" name="name" placeholder="your name" />
+            <input type="number" name="number" placeholder="your number" />
+          </div>
+          <div class="inputBox">
+            <input type="email" name="email" placeholder="your email" />
+            <input type="text" name="subject" placeholder="your subject" />
+          </div>
+          <textarea
+            name="message"
+            placeholder="your message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

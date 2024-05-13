@@ -222,7 +222,6 @@ section {
 
 .about .row .info-container .box-container .box h3 span {
   color: #aaa;
-  font-weight: lighter
 }
 
 .about .row .count-container {
@@ -682,4 +681,8 @@ section {
 }
 .heading.education{
   font-size: 4vw;
+}
+
+.lowercase-text{
+  text-transform: lowercase;
 }
